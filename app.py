@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load saved model
-model = pickle.load(open("models/house_model.pkl", "rb"))
+model = pickle.load(open("house_model.pkl", "rb"))
 
 # Title
 st.title("🏠 House Price Prediction")
